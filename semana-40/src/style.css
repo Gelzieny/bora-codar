@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  --bg-color: #09090A;
+  --bg-input-color: #202024;
+  --base-color: #C4C4CC;
+  --title-color: #FFF;
+  --gradient-color: linear-gradient(90deg, #996DFF 0%, #C7AFFF 100%);
+}
+
+body {
+  background-color: var(--bg-color);
+  background-image: url('../img/bg.png');
+  background-size: 100vh;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+body, html, input {
+  font-family: 'Roboto', sans-serif;
+}
+
+.page {
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 1.6rem;
+}
+
+main {
+  margin: 16rem 0;
+  max-width: 50rem;
+}
+
+main span {
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 24px;
+  font-size: 1.6rem;
+  letter-spacing: 0.16rem;
+  background-image: var(--gradient-color);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+main h1 {
+  margin-top: 1.6rem;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 4.8rem;
+  color: var(--title-color);
+}
+
+main p {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+  color: var(--base-color);
+  margin: 3.2rem 0;
+}
+
+main form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+
+main form input {
+  flex: 1; 
+  min-width: 20rem; 
+  height: 5.8rem;
+  background-color: var(--bg-input-color);
+  border: none;
+  border-radius: .5rem;
+  padding: 1.2rem;
+  color: var(--base-color);
+}
+
+input::placeholder {
+  font-size: 1.6rem;
+  color: var(--base-color);
+}
+
+main form button {
+  background: var(--gradient-color);
+  border: none;
+  width: 17.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: var(--title-color);
+  gap: 1.6rem; 
+}
+
+footer div {
+  max-width: 27.4rem;
+}
+
+footer div p:first-of-type {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+  margin: 1.6rem 0 0.8rem;
+}
+
+footer div p {
+  font-size: 1.4rem;
+  line-height: 2.0rem;
+  color: var(--base-color);
+}
+
+@media (max-width: 768px) {
+  :root {
+    font-size: 50%;
+  }
+
+  main {
+    margin: 8rem 0;
+    padding: 0 1.6rem;
+  }
+
+  main h1 {
+    font-size: 3.6rem;
+    line-height: 4.0rem;
+  }
+
+  main p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  main form input {
+    min-width: 100%;
+  }
+
+  main form button {
+    width: 100%; 
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  main h1 {
+    font-size: 2.8rem;
+    line-height: 3.2rem;
+  }
+
+  main p {
+    font-size: 1.4rem;
+  }
+}

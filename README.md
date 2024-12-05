@@ -26,7 +26,9 @@ Esse repositório tem como objetivo armazenar os projetos semanais propostos pel
 
 O layout de toda a aplicação pode ser acessado através do [Figma](<https://www.rocketseat.com.br/boracodar/desafios-anteriores>)
 
-| Semana |Imagem                               | Descrição                | Link do repositório               |
+## 👨‍💻 Projetos
+
+| Semana |Imagem                               | Descrição                | Link do repositório               | 
 |---|-------------------------------------|--------------------------|---------------------|
 | 1 |<img src="https://github.com/Gelzieny/bora-codar/blob/main/.gitHub/semana01.png?raw=true" width="100"> | Music Player      | [Visite o repositório](https://example.com) |
 | 2 |<img src="https://github.com/Gelzieny/bora-codar/blob/main/.gitHub/semana02.png?raw=true" width="100"> | Card de produto           | [Visite o repositório](https://example.com) |
