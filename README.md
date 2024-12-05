@@ -45,7 +45,7 @@ O layout de toda a aplicação pode ser acessado através do [Figma](<https://ww
 | 15 |![Foto](https://via.placeholder.com/50) | Outra descrição           | [Visite o site](https://example.com) |
 | 16 |![Foto](https://via.placeholder.com/50) | Outra descrição           | [Visite o site](https://example.com) |
 | 17 |![Foto](https://via.placeholder.com/50) | Outra descrição           | [Visite o site](https://example.com) |
-| 18 |![Foto](https://via.placeholder.com/50) | Card com efeito 3D           | [Visite o repositório](https://github.com/Gelzieny/bora-codar/tree/main/semana-18) |
+| 18 | <img src="https://github.com/Gelzieny/bora-codar/blob/main/.gitHub/semana18.png?raw=true" width="100"> | Card com efeito 3D           | [Visite o repositório](https://github.com/Gelzieny/bora-codar/tree/main/semana-18) |
 | 19 |![Foto](https://via.placeholder.com/50) | Outra descrição           | [Visite o site](https://example.com) |
 | 20 |![Foto](https://via.placeholder.com/50) | Outra descrição           | [Visite o site](https://example.com) |
 | 21 |![Foto](https://via.placeholder.com/50) | Outra descrição           | [Visite o site](https://example.com) |
