@@ -4,9 +4,23 @@
   </a> Bora codar Projetos Incríveis 👩🏻‍🚀✨
 </h1>
 
+## 💻 Sobre o projeto
+
 <p align="justify">
-💻 Esse repositório tem como objetivo armazenar os projetos semanais propostos pela <a href="https://app.rocketseat.com.br/">Rocketseat</a> no desafio #boraCodar. Nesses desafios, tenho buscado realmente me desafiar e desenvolver meu aprendizado explorando JavaScript e React. 🚀
+O #boraCodar é um projeto da Rocketseat com o objetivo de estimular a prática de programação semanal e ajudar na criação de projetos para portifólio.
 </p>
+
+## ⚙️ Descrição
+
+<p align="justify">
+Esse repositório tem como objetivo armazenar os projetos semanais propostos pela <a href="https://app.rocketseat.com.br/">Rocketseat</a> no desafio #boraCodar. Nesses desafios, tenho buscado realmente me desafiar e desenvolver meu aprendizado explorando JavaScript e React. 🚀
+</p>
+
+## ⚡ Como participar do desafio:
+
+- Toda quarta-feira, às 11h, será liberado um novo desafio no site boracodar.dev;
+- Code a sua versão do desafio, compartilhe o resultado e marque a Rocketseat nas redes sociais com a hashtag #boraCodar;
+- Na semana seguinte (ou seja, na próxima quarta-feira, às 11h), no canal do YouTube da Rocketseat, você encontra um vídeo da equipe da Rocket (um dos Boosters e educadores) com a resolução completa do desafio.
 
 ## 🎨 Layout
 
