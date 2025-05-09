@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Inter, IBM_Plex_Mono } from "next/font/google";
+
 import "./globals.css";
+import { Header } from "./components/header/header";
+
 
 const inter = Inter({
   variable: "--font-inter",
@@ -29,6 +32,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${pleMono.variable} antialiased`}
       >
+        <Header />
         {children}
       </body>
     </html>
